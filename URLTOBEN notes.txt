@@ -1,0 +1,36 @@
+URLTOBEN notes
+
+Menu:
+1. Store URL/Bookmark.
+2. View list of bookmarks.
+3. Share list of bookmarks.
+4. Exit.
+
+1. { Ask for URL to store.
+
+Open Chrome using Selenium to navigate to the given URL.
+
+Scrape the website for elements/DOM.
+
+Extract title, date of article (if applicable), author and current date/time URL was accessed.
+
+Store this information into db, JSON, CSV, etc.
+
+Ask user has read the article or not. If so, ask for date read, if not mark unread.
+
+Ask user for tags
+}
+
+2. { Display list of bookmarks by title, author, date of article, date stored, tags, etc.
+
+Allow each column header to be sorted.
+
+Allow user to be able to search within each column header.
+
+}
+
+3. Provide user with option to email, upload to Google drive, upload to One Drive, cancel.
+
+4. Exit program cleanly.
+
+
